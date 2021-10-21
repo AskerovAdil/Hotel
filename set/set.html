@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/css/set.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <title>Room</title>
+        <script src="https://kit.fontawesome.com/f8deeae483.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <div class="logo__icon"></div>
+                    <div class="logo__icon_left"></div>
+                    <div class="logo__icon_right"></div>
+                    <div class="logo__name">TOXIN</div>
+                </div>
+                    <div class="header__nav">
+                        <ul class="header__nav__site">
+                            <li class="header__item">
+                                <a class="nav__site" href="#">О нас</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="nav__site" href="#">Услуги</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="nav__site" href="#">Вакансии</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="nav__site" href="#">Новости</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="nav__site" href="#">Соглашения</a>
+                            </li>
+                        </ul>
+                        <ul class="header__nav__user">
+                            <li class="header__item--btn btn-ex">
+                                <a class="header__btn" href="#">Войти</a>
+                            </li>
+                            <li class="header__item--btn btn-reg">
+                                <a class="header__btn" href="#">Зарегестрироваться</a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <div class="section">
+
+           <div class="left">
+
+                <div class="left__item">
+                    <div class="left__item-name">даты пребывания в отеле</div>
+                    <input class="left__input" type="date"/>
+                </div>
+                <div class="left__item">
+                    <div class="left__item-name">Гости</div>
+                    <input class="left__input" type="number"/>
+                </div>
+
+                <div class="left__item">
+                    <div class="left__text">
+                        <div class="left__item-name">диапазон цены</div>
+                        <div class="left__item-price">5 000₽ - 10 000₽</div>
+                    </div>
+                    <input class="left__range" min="0" max="10000" type="range"/>
+                    <div class="left__range-com">Стоимость за сутки пребывания в номере</div>
+                </div>
+
+                <div class="left__item">
+                    <div class="checkbox">
+                        <div class="left__item-name">Checkbox Buttons</div>
+                        <div class="checkbox__item">
+
+                            <label class="check__label">
+                                 <input class="check" id="check" type="checkbox"/>
+                                <span class="check__fake"></span>
+                                <span class="check__name">Можно курить</span>
+                             </label>
+
+                        </div>
+                        <div class="checkbox__item">
+
+
+                            <label class="check__label">
+                                 <input class="check" id="check" type="checkbox"/>
+                                <span class="check__fake"></span>
+                                <span class="check__name">Можно с питомцами</span>
+                             </label>
+
+                        </div>
+                        <div class="checkbox__item">
+
+                            <label class="check__label">
+                                 <input class="check" id="check" type="checkbox"/>
+                                <span class="check__fake"></span>
+                                <span class="check__name check__name-last">Можно пригласить гостей (до 10 человек)</span>
+                             </label>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="left__item">
+
+                            <div class="left__item-name">доступность</div>
+                            <div class="checkbox__item">
+
+                                <label class="check__label check__label_first">
+                                    <input class="check " type="checkbox"/>
+                                            <span class="check__fake"></span>
+                                            <span class="check__title">Широкий коридор</span>
+                                            <span class="check__subtitle">Ширина коридоров в номере не менее 91 см.</span>
+                                 </label>
+
+                            </div>
+                            <div class="checkbox__item">
+
+                                <label class="check__label">
+                                    <input class="check " type="checkbox"/>
+                                            <span class="check__fake"></span>
+                                            <span class="check__title">Помощник для инвалидов</span>
+                                            <span class="check__subtitle">На 1 этаже вас встретит специалист и проводит до номера.</span>
+                                 </label>
+
+                            </div>
+
+                </div>
+
+                <div class="left__item">
+                    <div class="comfort">
+                        <div class="left__item-name">удобства номера</div>
+                        <input class="left__input" type="number" />
+                    </div>
+                </div>
+
+               <div class="left__item">
+                   <details>
+                       <summary class="left__item-name">Дополонительные удобства</summary>
+                            <div class="checkbox__item">
+
+                                <label class="check__label">
+                                     <input class="check" id="check" type="checkbox"/>
+                                    <span class="check__fake"></span>
+                                    <span class="check__name">Завтрак</span>
+                                 </label>
+
+                            </div>
+                            <div class="checkbox__item">
+
+                                <label class="check__label">
+                                     <input class="check" id="check" type="checkbox"/>
+                                    <span class="check__fake"></span>
+                                    <span class="check__name">Письменный стол</span>
+                                 </label>
+
+                            </div>
+                            <div class="checkbox__item">
+
+                                <label class="check__label">
+                                     <input class="check" id="check" type="checkbox"/>
+                                    <span class="check__fake"></span>
+                                    <span class="check__name">Стул для кормления</span>
+                                 </label>
+
+                            </div>
+                            <div class="checkbox__item">
+                                <label class="check__label">
+                                     <input class="check" id="check" type="checkbox"/>
+                                    <span class="check__fake"></span>
+                                    <span class="check__name">Кроватка</span>
+                                 </label>
+                            </div>
+                            <div class="checkbox__item">
+
+                                    <label class="check__label">
+                                         <input class="check" id="check" type="checkbox"/>
+                                        <span class="check__fake"></span>
+                                        <span class="check__name">Телевизор</span>
+                                     </label>
+
+                            </div>
+                            <div class="checkbox__item">
+
+                                <label class="check__label">
+                                         <input class="check" id="check" type="checkbox"/>
+                                        <span class="check__fake"></span>
+                                        <span class="check__name">Шампунь</span>
+                                </label>
+
+                            </div>
+                   </details>
+               </div>
+
+
+            </div><!--left-->
+            <div class="right">
+                <div class="right__title">Номера, которые мы для вас подобрали</div>
+                <div class="room__row">
+                    <div class="room__item">
+                        <img class="room__image" src="assets/images/room/1.png"/>
+                        <div class="room__info">
+                            <div class="room__class">
+                                <div class="room__info-num">№ 888</div>
+                                <div class="room__info-hover">
+                                    <div class="room__point-left"></div>
+                                    <div class="room__point-right"></div>
+                                        <div class="room__point-circle">
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                        </div>
+                                </div>                                <div class="room__info-class">люкс</div>
+                            </div>
+                            <div class="room__price">
+                                <div class="room__info-price">9 990₽</div>
+                                <div class="room__info-period">в сутки</div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="room__rank">
+                            <div class="room__star"></div>
+                            <div class="room__fb">
+                                <div class="room__fb-num">145</div>
+                                <div class="room__fb-text">Отзывов</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="room__item">
+
+                        <img class="room__image" src="assets/images/room/2.png"/>
+                        <div class="room__info">
+                            <div class="room__class">
+                                <div class="room__info-num">№ 840</div>
+                                <div class="room__info-hover">
+                                    <div class="room__point-left"></div>
+                                    <div class="room__point-right"></div>
+                                        <div class="room__point-circle">
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                        </div>
+                                </div>
+                                <div class="room__info-class"></div>
+                            </div>
+                            <div class="room__price">
+                                <div class="room__info-price">9 990₽</div>
+                                <div class="room__info-period">в сутки</div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="room__rank">
+                            <div class="room__star"></div>
+                            <div class="room__fb">
+                                <div class="room__fb-num">65</div>
+                                <div class="room__fb-text">Отзывов</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="room__item">
+
+                        <img class="room__image" src="assets/images/room/3.png"/>
+                        <div class="room__info">
+                            <div class="room__class">
+                                <div class="room__info-num">№ 980</div>
+                                <div class="room__info-hover">
+                                    <div class="room__point-left"></div>
+                                    <div class="room__point-right"></div>
+                                        <div class="room__point-circle">
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                        </div>
+                                </div>
+                                <div class="room__info-class">люкс</div>
+                            </div>
+                            <div class="room__price">
+                                <div class="room__info-price">8500₽</div>
+                                <div class="room__info-period">в сутки</div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="room__rank">
+                            <div class="room__star"></div>
+                            <div class="room__fb">
+                                <div class="room__fb-num">35</div>
+                                <div class="room__fb-text">Отзывов</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div><!--room__row-->
+
+                <div class="room__row">
+                    <div class="room__item">
+                        <img class="room__image" src="assets/images/room/10.png"/>
+                        <div class="room__info">
+                            <div class="room__class">
+                                <div class="room__info-num">№ 444</div>
+                                <div class="room__info-hover">
+                                    <div class="room__point-left"></div>
+                                    <div class="room__point-right"></div>
+                                        <div class="room__point-circle">
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                        </div>
+                                </div>
+                                <div class="room__info-class">люкс</div>
+                            </div>
+                            <div class="room__price">
+                                <div class="room__info-price">5 000₽</div>
+                                <div class="room__info-period">в сутки</div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="room__rank">
+                            <div class="room__star"></div>
+                            <div class="room__fb">
+                                <div class="room__fb-num">15</div>
+                                <div class="room__fb-text">Отзывов</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="room__item">
+
+                        <img class="room__image" src="assets/images/room/11.png"/>
+                        <div class="room__info">
+                            <div class="room__class">
+                                <div class="room__info-num">№ 352</div>
+                                <div class="room__info-hover">
+                                    <div class="room__point-left"></div>
+                                    <div class="room__point-right"></div>
+                                        <div class="room__point-circle">
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                        </div>
+                                </div>
+                                <div class="room__info-class"></div>
+                            </div>
+                            <div class="room__price">
+                                <div class="room__info-price">5 00₽</div>
+                                <div class="room__info-period">в сутки</div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="room__rank">
+                            <div class="room__star"></div>
+                            <div class="room__fb">
+                                <div class="room__fb-num">55</div>
+                                <div class="room__fb-text">Отзывов</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="room__item">
+
+                        <img class="room__image" src="assets/images/room/12.png"/>
+                        <div class="room__info">
+                            <div class="room__class">
+                                <div class="room__info-num">№ 888</div>
+                                <div class="room__info-hover">
+                                    <div class="room__point-left"></div>
+                                    <div class="room__point-right"></div>
+                                        <div class="room__point-circle">
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                        </div>
+                                </div>
+                                <div class="room__info-class">люкс</div>
+                            </div>
+                            <div class="room__price">
+                                <div class="room__info-price">9 990₽</div>
+                                <div class="room__info-period">в сутки</div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="room__rank">
+                            <div class="room__star"></div>
+                            <div class="room__fb">
+                                <div class="room__fb-num">145</div>
+                                <div class="room__fb-text">Отзывов</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="room__row">
+                    <div class="room__item">
+                        <img class="room__image" src="assets/images/room/4.png"/>
+                        <div class="room__info">
+                            <div class="room__class">
+                                <div class="room__info-num">№ 856</div>
+                                <div class="room__info-hover">
+                                    <div class="room__point-left"></div>
+                                    <div class="room__point-right"></div>
+                                        <div class="room__point-circle">
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                        </div>
+                                </div>
+                                <div class="room__info-class"></div>
+                            </div>
+                            <div class="room__price">
+                                <div class="room__info-price">7 300₽</div>
+                                <div class="room__info-period">в сутки</div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="room__rank">
+                            <div class="room__star"></div>
+                            <div class="room__fb">
+                                <div class="room__fb-num">19</div>
+                                <div class="room__fb-text">Отзывов</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="room__item">
+
+                        <img class="room__image" src="assets/images/room/5.png"/>
+                        <div class="room__info">
+                            <div class="room__class">
+                                <div class="room__info-num">№ 740</div>
+                                <div class="room__info-hover">
+                                    <div class="room__point-left"></div>
+                                    <div class="room__point-right"></div>
+                                        <div class="room__point-circle">
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                        </div>
+                                </div>
+                                <div class="room__info-class"></div>
+                            </div>
+                            <div class="room__price">
+                                <div class="room__info-price">6 000₽</div>
+                                <div class="room__info-period">в сутки</div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="room__rank">
+                            <div class="room__star"></div>
+                            <div class="room__fb">
+                                <div class="room__fb-num">44</div>
+                                <div class="room__fb-text">Отзывов</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="room__item">
+
+                        <img class="room__image" src="assets/images/room/6.png"/>
+                        <div class="room__info">
+                            <div class="room__class">
+                                <div class="room__info-num">№ 982</div>
+                                <div class="room__info-hover">
+                                    <div class="room__point-left"></div>
+                                    <div class="room__point-right"></div>
+                                        <div class="room__point-circle">
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                        </div>
+                                </div>
+                                <div class="room__info-class"></div>
+                            </div>
+                            <div class="room__price">
+                                <div class="room__info-price">5 800₽</div>
+                                <div class="room__info-period">в сутки</div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="room__rank">
+                            <div class="room__star"></div>
+                            <div class="room__fb">
+                                <div class="room__fb-num">56</div>
+                                <div class="room__fb-text">Отзывов</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="room__row">
+                    <div class="room__item">
+                        <img class="room__image" src="assets/images/room/7.png"/>
+                        <div class="room__info">
+                            <div class="room__class">
+                                <div class="room__info-num">№ 678</div>
+                                <div class="room__info-hover">
+                                    <div class="room__point-left"></div>
+                                    <div class="room__point-right"></div>
+                                        <div class="room__point-circle">
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                        </div>
+                                </div>
+                                <div class="room__info-class"></div>
+                            </div>
+                            <div class="room__price">
+                                <div class="room__info-price">5 500₽</div>
+                                <div class="room__info-period">в сутки</div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="room__rank">
+                            <div class="room__star"></div>
+                            <div class="room__fb">
+                                <div class="room__fb-num">45</div>
+                                <div class="room__fb-text">Отзывов</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="room__item">
+
+                        <img class="room__image" src="assets/images/room/8.png"/>
+                        <div class="room__info">
+                            <div class="room__class">
+                                <div class="room__info-num">№ 450</div>
+                                <div class="room__info-hover">
+                                    <div class="room__point-left"></div>
+                                    <div class="room__point-right"></div>
+                                        <div class="room__point-circle">
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                        </div>
+                                </div>
+                                <div class="room__info-class"></div>
+                            </div>
+                            <div class="room__price">
+                                <div class="room__info-price">5 300₽</div>
+                                <div class="room__info-period">в сутки</div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="room__rank">
+                            <div class="room__star"></div>
+                            <div class="room__fb">
+                                <div class="room__fb-num">39</div>
+                                <div class="room__fb-text">Отзывов</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="room__item">
+
+                        <img class="room__image" src="assets/images/room/9.png"/>
+                        <div class="room__info">
+                            <div class="room__class">
+                                <div class="room__info-num">№ 666</div>
+                                <div class="room__info-hover">
+                                    <div class="room__point-left"></div>
+                                    <div class="room__point-right"></div>
+                                        <div class="room__point-circle">
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                            <div class="room__point-item"></div>
+                                        </div>
+                                </div>
+                                <div class="room__info-class"></div>
+                            </div>
+                            <div class="room__price">
+                                <div class="room__info-price">5 000₽</div>
+                                <div class="room__info-period">в сутки</div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="room__rank">
+                            <div class="room__star"></div>
+                            <div class="room__fb">
+                                <div class="room__fb-num">25</div>
+                                <div class="room__fb-text">Отзывов</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div><!--room__row-->
+
+                <div class="pages">
+                    <div class="pages__number">
+                        <div class="pages__item">
+                            <a class="pages__item_href-act" href="#">1</a>
+                        </div>
+                        <div class="pages__item">
+                            <a class="pages__item_href" href="#">2</a>
+                        </div>
+                        <div class="pages__item">
+                            <a class="pages__item_href" href="#">3</a>
+                        </div>
+                        <div class="pages__item">...</div>
+                        <div class="pages__item">
+                            <a class="pages__item_href" href="#">15</a>
+                        </div>
+                        <div class="pages__item">
+                            <div class="strelka">
+                                <div class="strelka__item"></div>
+                                <div class="strelka__item-line"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pages__text">1 – 12 из 100+ вариантов аренды</div>
+                </div>
+
+            </div><!--right-->
+        </div><!--Container-->
+    </div><!--section-->
+
+
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer__inner">
+                <div class="footer__main">
+
+                    <div class="footer__item">
+                        <div class="footer__description">
+                            <div class="logo">
+                                <div class="logo__icon"></div>
+                                <div class="logo__icon_left"></div>
+                                <div class="logo__icon_right"></div>
+                            </div>
+                                <div class="logo__name">TOXIN</div>
+                            </div>
+                            <div class="footer__text">Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»</div>
+                        </div>
+
+                    <div class="footer__item">
+                       <div class="footer__nav">
+
+                           <ul class="footer__list">
+                                <h class="footer__title">Навигация</h>
+                               <li class="footer__list--item">
+                                   <a class="href"href="#">О нас</a>
+                                </li>
+                               <li class="footer__list--item">
+                                   <a class="href"href="#">Новости</a>
+                                </li>
+                               <li class="footer__list--item">
+                                   <a class="href"href="#">Служба поддержки</a>
+                                </li>
+                               <li class="footer__list--item">
+                                   <a class="href"href="#">Услуги</a>
+                                </li>
+                           </ul>
+
+                       </div>
+
+
+                       <div class="footer__nav">
+
+                           <ul class="footer__list">
+                                <h class="footer__title">о нас</h>
+                               <li class="footer__list--item">
+                                   <a class="href"href="#">О сервисе</a>
+                                </li>
+                               <li class="footer__list--item">
+                                   <a class="href"href="#">Наша команда</a>
+                                </li>
+                               <li class="footer__list--item">
+                                   <a class="href"href="#">Вакансии</a>
+                                </li>
+                               <li class="footer__list--item">
+                                   <a class="href"href="#">Инвесторы</a>
+                                </li>
+                           </ul>
+
+                       </div>
+                       <div class="footer__nav">
+                           <ul class="footer__list">
+                                <h class="footer__title">Служба поддержки</h>
+                               <li class="footer__list--item">
+                                   <a class="href"href="#">Соглашения</a>
+                                </li>
+                               <li class="footer__list--item">
+                                   <a class="href"href="#">Сообщества</a>
+                                </li>
+                               <li class="footer__list--item">
+                                   <a class="href"href="#">Связь с нами</a>
+                                </li>
+                           </ul>
+                       </div>
+
+                    </div><!--Footer__item-->
+
+                    <div class="footer__item">
+                        <div class="footer__info">
+                            <div class="footer__title">Подписка</div>
+                            <div class="footer__info--text">Получайте специальные предложения и новости сервиса</div>
+                            <input class="footer__info--block" type="text"/>
+                        </div>
+                    </div>
+
+                </div> <!--footer__main-->
+            </div> <!--footer__inner-->
+
+        </div>  <!--container-->
+    </footer>
+
+        <div class="footer__sub">
+           <div class="container">
+
+            <div class="footer__sub--main">
+                 <div class="footer__copyright">Copyright © 2018 Toxin отель. Все права зачищены.</div>
+                      <div class="footer__social">
+                          <a class="footer__social--item" href="#" target="_blank">
+                              <i class="fab fa-facebook-square"></i>
+                          </a>
+                          <a class="footer__social--item" href="#" target="_blank">
+                              <i class="fab fa-instagram-square"></i>
+                          </a>
+                          <a class="footer__social--item" href="#" target="_blank">
+                              <i class="fab fa-twitter"></i>
+                          </a>
+                      </div>
+                 </div>
+
+             </div>
+        </div>
+
+</body>
+</html>

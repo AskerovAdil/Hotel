@@ -3,7 +3,8 @@
 Layout layout project using only Html/css tools
 
 <p float="flex">
-  <img src="https://github.com/AskerovAdil/Hotel/blob/master/Toxin/search.png" width="400" />
+  <img src="https://github.com/AskerovAdil/Hotel/blob/master/Toxin/room3.png"  width="400"/> 
+  
   <img src="https://github.com/AskerovAdil/Hotel/blob/master/Toxin/room2.png"  width="400"/> 
 </p>
   
@@ -12,8 +13,9 @@ Layout layout project using only Html/css tools
   <img src="https://github.com/AskerovAdil/Hotel/blob/master/Toxin/set2.png" width="400" />
 </p>
 <p class="flex">
+  <img src="https://github.com/AskerovAdil/Hotel/blob/master/Toxin/search.png" width="400" />
+
   <img  src="https://github.com/AskerovAdil/Hotel/blob/master/Toxin/room.png" width="400"/>
-  <img src="https://github.com/AskerovAdil/Hotel/blob/master/Toxin/room3.png"  width="400"/> 
 </p>
 
 ## Authors

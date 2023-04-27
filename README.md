@@ -1,6 +1,7 @@
 # Toxin Hotel
 
-Layout layout project using only Html/css tools
+Layout based on the layout of the Toxin hotel. 
+This project is a test project to improve layout skills using native HTML/CSS tools.
 
 <p float="flex">
   <img src="https://github.com/AskerovAdil/Hotel/blob/master/Toxin/search.png" width="400" />
